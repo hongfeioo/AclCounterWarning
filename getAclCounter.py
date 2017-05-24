@@ -1,6 +1,4 @@
 #!/usr/bin/python
-#filename: npm.py
-#---ATTENTION: change NPM.XX
 from collections import defaultdict
 import telnetlib
 import os,sys,commands,multiprocessing
@@ -20,7 +18,7 @@ devicefile_init = '/root/getAclCounter/getAclCounter.ini'
 devicetmp = '/root/getAclCounter/getAclCounter.tmp'
 #mailtmp = '/root/npm/mail.tmp'
 pythonlog =  '/root/mylog.txt'
-sms_string = 'http://push.lietou.com/sms_web/send4vpn.do?clientId=60004&tel='
+sms_string = 'http://h.lie.com/el='
 
 linecount = 0
 MAX_process = 1       #mutiprocessing
